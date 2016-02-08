@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '47EEBE750B794024F22F30C9'
+               BlueprintIdentifier = '72E6002D2FE4BECC0D215CEF'
                BlueprintName = 'XcodeServerSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'XcodeServerSDK.framework'>
