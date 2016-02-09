@@ -15,6 +15,8 @@
 		752EA27E1C691ED200FEAC5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752EA27C1C691ED200FEAC5F /* LaunchScreen.storyboard */; };
 		752EA2891C691ED200FEAC5F /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EA2881C691ED200FEAC5F /* HelloWorldTests.swift */; };
 		752EA2941C691ED200FEAC5F /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EA2931C691ED200FEAC5F /* HelloWorldUITests.swift */; };
+		752EA2A21C6A3EC200FEAC5F /* BotsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EA2A11C6A3EC200FEAC5F /* BotsTableViewController.swift */; };
+		752EA2A71C6A55C700FEAC5F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752EA2A61C6A55C700FEAC5F /* Constants.swift */; };
 		A4A867B5DEA1A2A009321FDF /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FED6918F95DCE6A76B5F016B /* Pods_HelloWorld.framework */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		752EA28F1C691ED200FEAC5F /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		752EA2931C691ED200FEAC5F /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		752EA2951C691ED200FEAC5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		752EA2A11C6A3EC200FEAC5F /* BotsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BotsTableViewController.swift; sourceTree = "<group>"; };
+		752EA2A61C6A55C700FEAC5F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FED6918F95DCE6A76B5F016B /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -117,11 +121,13 @@
 			children = (
 				752EA2701C691ED200FEAC5F /* AppDelegate.swift */,
 				752EA2721C691ED200FEAC5F /* ViewController.swift */,
+				752EA2A11C6A3EC200FEAC5F /* BotsTableViewController.swift */,
 				752EA2741C691ED200FEAC5F /* Main.storyboard */,
 				752EA27A1C691ED200FEAC5F /* Assets.xcassets */,
 				752EA27C1C691ED200FEAC5F /* LaunchScreen.storyboard */,
 				752EA27F1C691ED200FEAC5F /* Info.plist */,
 				752EA2771C691ED200FEAC5F /* HelloWorld.xcdatamodeld */,
+				752EA2A51C6A55B500FEAC5F /* Support */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -142,6 +148,14 @@
 				752EA2951C691ED200FEAC5F /* Info.plist */,
 			);
 			path = HelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		752EA2A51C6A55B500FEAC5F /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				752EA2A61C6A55C700FEAC5F /* Constants.swift */,
+			);
+			path = Support;
 			sourceTree = "<group>";
 		};
 		8C4D70AF5CC2CF150961BDD8 /* Frameworks */ = {
@@ -334,9 +348,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				752EA2A71C6A55C700FEAC5F /* Constants.swift in Sources */,
 				752EA2791C691ED200FEAC5F /* HelloWorld.xcdatamodeld in Sources */,
 				752EA2731C691ED200FEAC5F /* ViewController.swift in Sources */,
 				752EA2711C691ED200FEAC5F /* AppDelegate.swift in Sources */,
+				752EA2A21C6A3EC200FEAC5F /* BotsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

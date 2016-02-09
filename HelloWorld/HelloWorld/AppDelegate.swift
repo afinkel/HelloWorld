@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  HelloWorld
 //
-//  Created by Mobile on 2016-02-08.
+//  Created by Alex Finkel on 2016-02-08.
 //  Copyright © 2016 ScotiaBank. All rights reserved.
 //
 
